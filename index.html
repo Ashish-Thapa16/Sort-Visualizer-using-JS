@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="navbar">
+        <h1>Sorting Visualizer</h1>
+        <input id="input" placeholder="Enter your array" value="" type="text">
+        <button id="submit-btn" class="btn">Submit</button>
+        <label>Choose:</label>
+        <select id="algorithm" class="dropdown">
+            <option>Algorithm</option>
+            <option>Bubble Sort</option>
+            <option>Selection Sort</option>
+            <option>Insertion Sort</option>
+        </select>
+        <label>Transition time in (ms):</label>
+        <select id="speed" class="dropdown">
+            <option>200</option>
+            <option>500</option>
+            <option>800</option>
+            <option>1000</option>
+            <option>1500</option>
+        </select>
+        <button id="sort-btn" class="btn">Sort</button>
+    </div>
+    <div id="container" class="array">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

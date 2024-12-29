@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+#navbar {
+    height: 100px;
+    color: white;
+    background-color: #4CC9FE;
+    margin-bottom: 16px;
+}
+#input {
+    margin-left: 80px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.btn {
+    margin-left: 10px;
+    font-size: 20px;
+    width: 80px;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#sort-btn {
+    width: 80px;
+}
+#container {
+    margin: auto;
+    height: 410px;
+    width: 420px;
+    border-radius: 4px;
+    overflow-y: hidden;
+    box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+        rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+}
+.array {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 100%;
+    padding: 1rem;
+}
+.cell {
+    width: 86px;
+    background-color: #d6d6d6;
+    text-align: center;
+    margin: 1px;
+    resize: horizontal;
+    position: relative;
+    transition: all 0.1s linear;
+}
+label {
+    font-size: 20px;
+    margin-left: 10px;
+}
+.dropdown {
+    cursor: pointer;
+}
